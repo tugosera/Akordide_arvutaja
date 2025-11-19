@@ -1,4 +1,4 @@
-﻿namespace VeebirakendusteLoomine.Models;
+﻿namespace Akordide_arvutaja.Models;
 
 public class GKolmkola : Kolmkola
 {

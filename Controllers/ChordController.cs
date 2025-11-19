@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using VeebirakendusteLoomine.Models;
+using Akordide_arvutaja.Models;
 
-namespace VeebirakendusteLoomine.Controllers;
+namespace Akordide_arvutaja.Controllers;
 
 [ApiController]
 [Route("[controller]")]

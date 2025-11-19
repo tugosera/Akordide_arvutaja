@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace VeebirakendusteLoomine.Models;
+namespace Akordide_arvutaja.Models;
 
 /// <summary>
 /// Kolmkõla (triad) — põhitoon, suur terts (+4), kvint (+7).

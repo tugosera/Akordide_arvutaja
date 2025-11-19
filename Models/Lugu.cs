@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace VeebirakendusteLoomine.Models;
+namespace Akordide_arvutaja.Models;
 
 /// <summary>
 /// Lugu - iga takti jaoks saab lisada kolmkõla.
