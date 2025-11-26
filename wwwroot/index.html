@@ -1,26 +1,36 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Akordide Arvutaja</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Akordide Arvutaja</h1>
+    <div class="container">
+        <h1>Akordide Arvutaja</h1>
 
-    <select id="chordSelect">
-        <option value="C">C</option>
-        <option value="D">D</option>
-        <option value="E">E</option>
-        <option value="F">F</option>
-        <option value="G">G</option>
-        <option value="A">A</option>
-        <option value="H">H</option>
-    </select>
+        <div class="chord-buttons">
+            <button onclick="addChord('C')">C</button>
+            <button onclick="addChord('D')">D</button>
+            <button onclick="addChord('E')">E</button>
+            <button onclick="addChord('F')">F</button>
+            <button onclick="addChord('G')">G</button>
+            <button onclick="addChord('A')">A</button>
+            <button onclick="addChord('H')">H</button>
+        </div>
 
-    <button onclick="getChord()">Показать аккорд</button>
+        <div class="input-area">
+            <label>Выбранные аккорды:</label>
+            <input id="chordsInput" type="text" readonly>
+            <button class="clear-btn" onclick="clearChords()">Очистить</button>
+        </div>
 
-    <div id="result"></div>
+        <button class="calculate-btn" onclick="calculate()">Рассчитать</button>
+
+        <h2>Результат:</h2>
+        <div id="result" class="result-box"></div>
+    </div>
 
     <script src="script.js"></script>
 </body>
